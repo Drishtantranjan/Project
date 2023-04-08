@@ -1,0 +1,38 @@
+name: courses
+description: A new Flutter package project.
+version: 0.0.1
+homepage:
+publish_to: "none"
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_hooks: ^0.18.5+1
+  hooks_riverpod: ^2.1.1
+  percent_indicator: ^4.2.3
+  routes:
+    path: ../routes
+  styles:
+    path: ../styles
+  shared:
+    path: ../shared
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+    
+  flutter_lints: ^2.0.0
+  import_sorter: ^4.6.0
+
+import_sorter:
+  comments: false
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    

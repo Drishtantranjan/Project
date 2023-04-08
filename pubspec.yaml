@@ -1,0 +1,47 @@
+name: alabrish_academy
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_hooks: ^0.18.5+1
+  hooks_riverpod: ^2.1.1
+
+  routes:
+    path: modules/routes
+  styles:
+    path: modules/styles
+  shared:
+    path: modules/shared
+  bloc: ^8.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+import_sorter:
+  comments: false
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+  fonts:
+    - family: ProductSans
+      fonts:
+        - asset: packages/styles/fonts/ProductSans-Regular.ttf
+        - asset: packages/styles/fonts/ProductSans-Bold.ttf
+          weight: 700
+        - asset: packages/styles/fonts/ProductSans-Italic.ttf
+          style: italic
+        - asset: packages/styles/fonts/ProductSans-BoldItalic.ttf
+          weight: 700
+          style: italic

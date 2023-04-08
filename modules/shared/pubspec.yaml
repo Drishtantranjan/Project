@@ -1,0 +1,35 @@
+name: shared
+description: A new Flutter package project.
+version: 0.0.1
+homepage:
+publish_to: "none"
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_hooks: ^0.18.5+1
+  hooks_riverpod: ^2.1.1
+  flutter_svg: ^1.1.6
+  go_router: ^5.2.3
+  styles:
+    path: ../styles
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  cached_network_image: ^3.2.3
+  logging: ^1.1.0
+  intl: ^0.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  hive_generator: ^2.0.0
+  build_runner: ^2.3.3
+
+flutter:
+  assets:
+    - assets/
